@@ -1,0 +1,501 @@
+user_id,age,gender,location,signup_date,user_segment
+U0001,56,F,"New York, NY",2023-12-30,mid_range
+U0002,46,M,"Phoenix, AZ",2023-07-18,mid_range
+U0003,60,F,"Milwaukee, WI",2022-12-31,mid_range
+U0004,38,F,"Los Angeles, CA",2020-05-01,budget
+U0005,36,M,"San Francisco, CA",2023-05-23,mid_range
+U0006,28,F,"Boston, MA",2020-03-28,mid_range
+U0007,53,F,"San Diego, CA",2022-05-21,mid_range
+U0008,41,M,"Baltimore, MD",2020-05-10,budget
+U0009,39,F,"Boston, MA",2023-08-25,mid_range
+U0010,19,M,"San Antonio, TX",2020-12-09,luxury
+U0011,61,M,"Chicago, IL",2023-12-08,mid_range
+U0012,55,M,"Jacksonville, FL",2021-01-20,mid_range
+U0013,38,F,"Portland, OR",2023-03-30,mid_range
+U0014,29,M,"Albuquerque, NM",2023-08-30,mid_range
+U0015,39,F,"Louisville, KY",2020-09-09,mid_range
+U0016,61,F,"Jacksonville, FL",2022-05-06,mid_range
+U0017,66,F,"Los Angeles, CA",2021-04-19,mid_range
+U0018,59,F,"Chicago, IL",2021-11-30,premium
+U0019,33,F,"Fort Worth, TX",2020-07-08,budget
+U0020,64,F,"Jacksonville, FL",2022-08-15,budget
+U0021,68,M,"El Paso, TX",2023-06-21,budget
+U0022,20,F,"Oklahoma City, OK",2021-10-08,budget
+U0023,38,F,"Seattle, WA",2022-04-20,mid_range
+U0024,56,M,"Fort Worth, TX",2023-07-21,budget
+U0025,21,F,"Boston, MA",2021-08-23,mid_range
+U0026,31,F,"Louisville, KY",2020-08-29,premium
+U0027,26,M,"Louisville, KY",2023-10-01,budget
+U0028,19,M,"Dallas, TX",2023-09-25,budget
+U0029,45,F,"Denver, CO",2023-10-22,premium
+U0030,24,M,"Oklahoma City, OK",2023-12-22,mid_range
+U0031,25,F,"Oklahoma City, OK",2020-02-04,mid_range
+U0032,31,M,"San Diego, CA",2023-01-09,mid_range
+U0033,53,F,"Portland, OR",2023-11-12,mid_range
+U0034,19,F,"Fort Worth, TX",2022-10-18,mid_range
+U0035,23,Non-binary,"Phoenix, AZ",2021-07-19,mid_range
+U0036,59,M,"Los Angeles, CA",2021-12-03,premium
+U0037,35,M,"Philadelphia, PA",2021-12-30,premium
+U0038,61,M,"Chicago, IL",2020-06-10,mid_range
+U0039,27,F,"Charlotte, NC",2022-09-22,mid_range
+U0040,31,Non-binary,"Baltimore, MD",2022-03-26,luxury
+U0041,32,F,"Houston, TX",2021-03-31,mid_range
+U0042,31,F,"Dallas, TX",2023-06-29,premium
+U0043,57,M,"San Jose, CA",2021-12-20,mid_range
+U0044,62,M,"Portland, OR",2020-12-03,premium
+U0045,64,M,"San Francisco, CA",2022-12-12,premium
+U0046,41,F,"Houston, TX",2020-08-04,premium
+U0047,62,M,"Oklahoma City, OK",2022-11-30,mid_range
+U0048,46,M,"Jacksonville, FL",2020-01-15,premium
+U0049,62,F,"Las Vegas, NV",2020-03-05,premium
+U0050,42,F,"Nashville, TN",2021-06-04,budget
+U0051,41,M,"Albuquerque, NM",2023-02-26,mid_range
+U0052,61,Non-binary,"Memphis, TN",2021-10-09,budget
+U0053,41,M,"Milwaukee, WI",2022-12-22,mid_range
+U0054,28,M,"Portland, OR",2021-08-15,mid_range
+U0055,25,M,"Las Vegas, NV",2021-02-22,mid_range
+U0056,50,M,"El Paso, TX",2021-01-13,mid_range
+U0057,22,F,"Dallas, TX",2020-08-18,mid_range
+U0058,58,F,"San Antonio, TX",2022-11-17,premium
+U0059,24,F,"Boston, MA",2020-07-19,budget
+U0060,25,M,"El Paso, TX",2022-02-18,mid_range
+U0061,51,M,"San Francisco, CA",2022-11-22,mid_range
+U0062,65,M,"Chicago, IL",2021-05-17,budget
+U0063,40,F,"San Diego, CA",2022-03-15,mid_range
+U0064,52,M,"Boston, MA",2021-11-14,mid_range
+U0065,57,M,"Milwaukee, WI",2021-12-26,budget
+U0066,44,M,"San Francisco, CA",2022-08-18,budget
+U0067,52,F,"San Antonio, TX",2021-09-04,mid_range
+U0068,64,F,"Milwaukee, WI",2021-10-04,mid_range
+U0069,18,M,"Memphis, TN",2022-10-25,mid_range
+U0070,43,M,"Houston, TX",2021-05-17,budget
+U0071,31,M,"Columbus, OH",2022-05-20,mid_range
+U0072,44,F,"Los Angeles, CA",2021-01-27,mid_range
+U0073,32,Non-binary,"Houston, TX",2022-11-04,budget
+U0074,43,F,"Memphis, TN",2022-06-10,premium
+U0075,30,M,"San Antonio, TX",2022-05-13,mid_range
+U0076,56,M,"Philadelphia, PA",2023-06-18,budget
+U0077,69,M,"Albuquerque, NM",2022-10-17,budget
+U0078,49,F,"Baltimore, MD",2021-04-29,mid_range
+U0079,40,M,"Seattle, WA",2020-08-18,premium
+U0080,62,Non-binary,"Albuquerque, NM",2023-04-09,premium
+U0081,46,M,"Columbus, OH",2022-11-25,mid_range
+U0082,30,M,"Fort Worth, TX",2023-03-29,premium
+U0083,24,M,"New York, NY",2023-06-20,luxury
+U0084,39,M,"Memphis, TN",2021-07-31,premium
+U0085,59,M,"Boston, MA",2021-07-10,luxury
+U0086,23,Non-binary,"Seattle, WA",2022-03-06,mid_range
+U0087,45,F,"San Antonio, TX",2023-09-25,budget
+U0088,47,Non-binary,"Denver, CO",2023-09-16,mid_range
+U0089,45,M,"Austin, TX",2023-06-08,budget
+U0090,50,F,"San Francisco, CA",2023-11-09,premium
+U0091,44,F,"Los Angeles, CA",2021-09-24,luxury
+U0092,69,M,"Philadelphia, PA",2022-08-30,budget
+U0093,58,M,"Baltimore, MD",2023-07-06,budget
+U0094,56,M,"Milwaukee, WI",2021-12-10,mid_range
+U0095,25,F,"Los Angeles, CA",2023-12-05,mid_range
+U0096,26,M,"Denver, CO",2020-11-13,mid_range
+U0097,54,M,"Dallas, TX",2023-06-02,budget
+U0098,68,F,"San Diego, CA",2023-06-11,budget
+U0099,61,M,"Oklahoma City, OK",2021-10-25,budget
+U0100,32,M,"Las Vegas, NV",2023-10-29,luxury
+U0101,49,M,"Nashville, TN",2023-06-10,luxury
+U0102,69,Non-binary,"Chicago, IL",2023-02-10,mid_range
+U0103,66,F,"Phoenix, AZ",2021-03-17,luxury
+U0104,69,F,"Milwaukee, WI",2023-07-15,budget
+U0105,56,M,"Charlotte, NC",2023-11-10,premium
+U0106,20,F,"Nashville, TN",2023-02-10,luxury
+U0107,54,F,"San Francisco, CA",2022-08-09,budget
+U0108,34,F,"San Jose, CA",2021-11-29,luxury
+U0109,66,M,"Milwaukee, WI",2020-01-02,budget
+U0110,19,M,"Houston, TX",2020-08-07,mid_range
+U0111,40,M,"San Jose, CA",2023-06-02,mid_range
+U0112,18,F,"San Antonio, TX",2023-11-27,mid_range
+U0113,19,F,"San Francisco, CA",2022-12-12,mid_range
+U0114,61,F,"Baltimore, MD",2021-12-30,budget
+U0115,49,F,"Louisville, KY",2023-12-10,budget
+U0116,21,M,"Las Vegas, NV",2020-07-21,budget
+U0117,34,Non-binary,"Philadelphia, PA",2022-02-05,mid_range
+U0118,55,F,"Columbus, OH",2020-10-06,mid_range
+U0119,22,M,"Milwaukee, WI",2022-06-02,mid_range
+U0120,51,M,"Los Angeles, CA",2020-07-16,premium
+U0121,39,F,"Phoenix, AZ",2022-01-21,mid_range
+U0122,33,M,"Jacksonville, FL",2021-08-31,premium
+U0123,26,F,"Baltimore, MD",2023-02-21,budget
+U0124,23,M,"El Paso, TX",2021-04-08,budget
+U0125,46,M,"Las Vegas, NV",2021-10-21,mid_range
+U0126,53,F,"Nashville, TN",2021-02-06,mid_range
+U0127,43,F,"San Diego, CA",2020-05-26,premium
+U0128,37,Non-binary,"Memphis, TN",2022-05-13,budget
+U0129,24,M,"Philadelphia, PA",2021-05-03,mid_range
+U0130,50,M,"Albuquerque, NM",2021-07-04,mid_range
+U0131,35,F,"Portland, OR",2022-05-21,premium
+U0132,18,M,"Memphis, TN",2021-04-17,mid_range
+U0133,67,M,"Los Angeles, CA",2020-05-30,premium
+U0134,48,M,"Louisville, KY",2023-08-14,premium
+U0135,52,M,"Louisville, KY",2020-09-19,premium
+U0136,33,M,"New York, NY",2020-12-11,mid_range
+U0137,65,M,"Dallas, TX",2022-10-13,premium
+U0138,69,Non-binary,"Dallas, TX",2022-05-30,mid_range
+U0139,19,F,"El Paso, TX",2022-06-15,luxury
+U0140,65,F,"New York, NY",2020-09-10,budget
+U0141,29,Non-binary,"Philadelphia, PA",2021-03-28,mid_range
+U0142,54,Non-binary,"Los Angeles, CA",2023-03-29,budget
+U0143,26,M,"Portland, OR",2023-06-10,premium
+U0144,52,M,"San Francisco, CA",2022-03-26,budget
+U0145,33,F,"San Antonio, TX",2023-02-28,budget
+U0146,37,F,"New York, NY",2020-05-31,mid_range
+U0147,50,F,"El Paso, TX",2021-09-19,mid_range
+U0148,28,F,"El Paso, TX",2023-12-14,budget
+U0149,55,M,"El Paso, TX",2020-04-13,premium
+U0150,37,F,"El Paso, TX",2020-09-10,premium
+U0151,52,F,"San Jose, CA",2023-02-09,mid_range
+U0152,42,F,"Austin, TX",2020-04-08,mid_range
+U0153,42,M,"Phoenix, AZ",2022-07-02,budget
+U0154,63,F,"Fort Worth, TX",2020-12-03,mid_range
+U0155,19,F,"Nashville, TN",2022-04-01,mid_range
+U0156,52,M,"Louisville, KY",2022-08-14,budget
+U0157,58,M,"Columbus, OH",2020-06-09,premium
+U0158,21,F,"Austin, TX",2022-03-11,mid_range
+U0159,31,M,"San Antonio, TX",2023-07-24,mid_range
+U0160,65,F,"Memphis, TN",2023-11-16,mid_range
+U0161,24,F,"San Jose, CA",2023-05-03,mid_range
+U0162,34,F,"Austin, TX",2021-10-01,budget
+U0163,50,F,"San Diego, CA",2021-11-18,mid_range
+U0164,29,M,"San Antonio, TX",2022-08-12,budget
+U0165,68,M,"Indianapolis, IN",2021-04-14,mid_range
+U0166,39,F,"Charlotte, NC",2022-01-19,mid_range
+U0167,47,F,"San Antonio, TX",2020-02-07,mid_range
+U0168,55,M,"Fort Worth, TX",2023-10-20,budget
+U0169,68,F,"New York, NY",2021-03-13,premium
+U0170,25,F,"Milwaukee, WI",2023-07-30,budget
+U0171,44,M,"Philadelphia, PA",2020-08-13,premium
+U0172,38,F,"Charlotte, NC",2022-03-08,budget
+U0173,50,M,"Baltimore, MD",2020-10-10,budget
+U0174,64,M,"Charlotte, NC",2022-08-17,mid_range
+U0175,50,Non-binary,"Nashville, TN",2021-03-28,budget
+U0176,65,F,"Charlotte, NC",2021-10-20,mid_range
+U0177,21,F,"San Francisco, CA",2021-06-30,mid_range
+U0178,66,F,"Charlotte, NC",2020-01-17,premium
+U0179,61,F,"Indianapolis, IN",2023-05-28,mid_range
+U0180,47,F,"Louisville, KY",2021-04-21,mid_range
+U0181,63,F,"San Francisco, CA",2023-10-28,mid_range
+U0182,23,M,"Charlotte, NC",2020-04-08,budget
+U0183,58,M,"Dallas, TX",2022-11-26,budget
+U0184,41,F,"Chicago, IL",2023-10-04,budget
+U0185,66,M,"Boston, MA",2020-10-28,budget
+U0186,48,M,"Columbus, OH",2023-01-27,mid_range
+U0187,50,F,"Columbus, OH",2023-02-13,budget
+U0188,38,F,"Fort Worth, TX",2022-07-16,premium
+U0189,40,F,"Boston, MA",2023-03-30,budget
+U0190,20,F,"Denver, CO",2020-05-07,mid_range
+U0191,35,M,"Jacksonville, FL",2021-07-19,budget
+U0192,20,M,"Milwaukee, WI",2021-11-16,luxury
+U0193,41,M,"Portland, OR",2021-09-17,mid_range
+U0194,49,F,"Milwaukee, WI",2022-05-03,budget
+U0195,40,M,"Columbus, OH",2022-08-19,mid_range
+U0196,44,M,"El Paso, TX",2021-05-04,mid_range
+U0197,19,M,"Philadelphia, PA",2022-02-23,premium
+U0198,57,F,"Nashville, TN",2023-11-17,mid_range
+U0199,60,F,"Denver, CO",2020-09-02,mid_range
+U0200,65,M,"Oklahoma City, OK",2022-11-28,mid_range
+U0201,46,F,"Philadelphia, PA",2022-01-28,budget
+U0202,43,M,"San Antonio, TX",2022-07-09,mid_range
+U0203,41,M,"Milwaukee, WI",2021-06-08,mid_range
+U0204,24,F,"Louisville, KY",2020-02-05,mid_range
+U0205,62,F,"Indianapolis, IN",2020-01-20,budget
+U0206,18,F,"Jacksonville, FL",2021-05-26,budget
+U0207,63,M,"Oklahoma City, OK",2021-02-03,budget
+U0208,31,M,"San Diego, CA",2022-08-29,budget
+U0209,68,M,"Phoenix, AZ",2021-04-15,budget
+U0210,32,M,"Houston, TX",2023-01-20,mid_range
+U0211,51,M,"Boston, MA",2022-04-13,budget
+U0212,49,M,"Nashville, TN",2021-12-27,mid_range
+U0213,39,F,"Houston, TX",2020-02-20,premium
+U0214,42,M,"San Jose, CA",2021-07-28,budget
+U0215,39,M,"San Jose, CA",2020-11-09,mid_range
+U0216,39,F,"Fort Worth, TX",2020-10-31,mid_range
+U0217,69,F,"Chicago, IL",2021-11-12,mid_range
+U0218,23,F,"San Diego, CA",2022-12-13,budget
+U0219,60,F,"Baltimore, MD",2021-03-19,mid_range
+U0220,54,F,"Memphis, TN",2022-09-19,luxury
+U0221,25,F,"Jacksonville, FL",2022-12-12,mid_range
+U0222,61,F,"Chicago, IL",2020-01-05,mid_range
+U0223,56,M,"Baltimore, MD",2023-05-04,mid_range
+U0224,23,F,"Columbus, OH",2022-05-26,luxury
+U0225,49,F,"Louisville, KY",2022-06-02,mid_range
+U0226,47,M,"Philadelphia, PA",2020-02-16,mid_range
+U0227,52,Non-binary,"Dallas, TX",2022-04-02,mid_range
+U0228,57,F,"Las Vegas, NV",2021-10-17,mid_range
+U0229,30,M,"Portland, OR",2021-01-04,mid_range
+U0230,59,M,"San Diego, CA",2021-10-18,premium
+U0231,36,M,"Milwaukee, WI",2022-12-17,mid_range
+U0232,43,F,"Denver, CO",2022-01-10,mid_range
+U0233,43,M,"New York, NY",2020-04-26,mid_range
+U0234,40,M,"Indianapolis, IN",2023-02-24,budget
+U0235,26,F,"Austin, TX",2022-10-09,budget
+U0236,18,F,"Milwaukee, WI",2022-12-17,budget
+U0237,18,M,"San Antonio, TX",2022-03-12,budget
+U0238,49,F,"Indianapolis, IN",2023-02-15,mid_range
+U0239,65,M,"Indianapolis, IN",2021-05-02,mid_range
+U0240,62,F,"Memphis, TN",2022-06-15,budget
+U0241,33,M,"Fort Worth, TX",2023-04-27,mid_range
+U0242,56,M,"Denver, CO",2021-12-04,mid_range
+U0243,22,F,"Jacksonville, FL",2022-02-28,mid_range
+U0244,46,F,"Austin, TX",2020-09-03,mid_range
+U0245,20,M,"San Jose, CA",2023-01-04,budget
+U0246,43,M,"San Antonio, TX",2023-12-29,budget
+U0247,54,F,"Las Vegas, NV",2023-01-14,mid_range
+U0248,46,M,"Portland, OR",2023-05-28,mid_range
+U0249,22,F,"Las Vegas, NV",2022-12-06,mid_range
+U0250,66,M,"Houston, TX",2020-04-03,premium
+U0251,63,M,"Jacksonville, FL",2022-08-15,budget
+U0252,69,M,"Seattle, WA",2021-03-28,budget
+U0253,29,M,"Los Angeles, CA",2022-06-30,mid_range
+U0254,43,F,"Phoenix, AZ",2021-04-18,mid_range
+U0255,65,F,"Houston, TX",2020-12-06,premium
+U0256,56,F,"Indianapolis, IN",2023-08-05,mid_range
+U0257,47,M,"Los Angeles, CA",2020-12-22,budget
+U0258,40,F,"Houston, TX",2021-06-05,premium
+U0259,22,M,"Chicago, IL",2023-01-28,mid_range
+U0260,51,F,"Phoenix, AZ",2023-04-18,budget
+U0261,48,F,"San Jose, CA",2022-01-31,budget
+U0262,36,M,"Seattle, WA",2021-03-17,premium
+U0263,49,F,"Memphis, TN",2022-02-07,mid_range
+U0264,22,F,"Fort Worth, TX",2021-05-30,mid_range
+U0265,33,M,"Baltimore, MD",2022-03-02,mid_range
+U0266,33,M,"Denver, CO",2020-09-14,mid_range
+U0267,66,F,"Portland, OR",2022-06-14,budget
+U0268,49,F,"Oklahoma City, OK",2022-05-01,budget
+U0269,41,F,"Philadelphia, PA",2021-11-20,budget
+U0270,52,F,"Philadelphia, PA",2021-01-14,budget
+U0271,50,M,"Nashville, TN",2022-08-14,mid_range
+U0272,68,M,"San Jose, CA",2023-12-21,mid_range
+U0273,54,F,"Charlotte, NC",2023-07-15,budget
+U0274,20,M,"Dallas, TX",2023-12-11,premium
+U0275,57,F,"El Paso, TX",2022-12-02,premium
+U0276,61,M,"Houston, TX",2020-10-11,mid_range
+U0277,30,F,"Albuquerque, NM",2020-01-12,budget
+U0278,48,M,"Los Angeles, CA",2023-08-18,budget
+U0279,19,M,"Portland, OR",2023-06-30,premium
+U0280,68,F,"Charlotte, NC",2022-01-23,budget
+U0281,52,F,"Boston, MA",2021-12-27,mid_range
+U0282,34,M,"Seattle, WA",2020-03-30,mid_range
+U0283,25,M,"Los Angeles, CA",2021-08-27,premium
+U0284,43,F,"Nashville, TN",2022-08-27,budget
+U0285,43,M,"El Paso, TX",2022-10-18,premium
+U0286,51,F,"New York, NY",2020-04-24,luxury
+U0287,58,F,"Dallas, TX",2023-05-04,mid_range
+U0288,67,F,"Philadelphia, PA",2023-01-03,mid_range
+U0289,46,F,"Albuquerque, NM",2023-10-31,budget
+U0290,53,Non-binary,"Columbus, OH",2021-12-29,mid_range
+U0291,38,F,"Chicago, IL",2022-10-17,mid_range
+U0292,53,M,"Austin, TX",2023-11-18,mid_range
+U0293,54,F,"Austin, TX",2021-04-01,mid_range
+U0294,41,F,"El Paso, TX",2020-07-10,luxury
+U0295,52,F,"Seattle, WA",2023-01-27,budget
+U0296,65,M,"Dallas, TX",2022-09-04,budget
+U0297,66,Non-binary,"Fort Worth, TX",2020-04-05,premium
+U0298,41,F,"New York, NY",2021-10-24,mid_range
+U0299,49,F,"Columbus, OH",2020-02-06,budget
+U0300,29,F,"Nashville, TN",2023-10-24,premium
+U0301,30,F,"Las Vegas, NV",2020-10-05,budget
+U0302,42,M,"Phoenix, AZ",2022-05-16,premium
+U0303,58,M,"Boston, MA",2023-07-20,mid_range
+U0304,66,M,"Oklahoma City, OK",2020-03-02,mid_range
+U0305,37,M,"Philadelphia, PA",2021-12-29,budget
+U0306,39,M,"Columbus, OH",2021-01-31,budget
+U0307,36,Non-binary,"Albuquerque, NM",2020-06-25,budget
+U0308,53,F,"Oklahoma City, OK",2021-01-30,premium
+U0309,58,F,"Boston, MA",2020-03-16,budget
+U0310,26,F,"Columbus, OH",2021-03-30,premium
+U0311,45,Non-binary,"San Diego, CA",2021-12-18,mid_range
+U0312,48,M,"San Antonio, TX",2023-11-08,premium
+U0313,69,F,"Milwaukee, WI",2022-04-30,budget
+U0314,64,M,"Las Vegas, NV",2020-05-23,premium
+U0315,22,M,"Albuquerque, NM",2023-01-27,premium
+U0316,29,M,"New York, NY",2022-11-14,budget
+U0317,69,M,"Denver, CO",2022-06-09,mid_range
+U0318,38,F,"Baltimore, MD",2023-03-20,budget
+U0319,33,F,"Jacksonville, FL",2021-07-22,budget
+U0320,56,F,"Fort Worth, TX",2020-04-18,mid_range
+U0321,59,M,"San Antonio, TX",2023-04-24,luxury
+U0322,56,M,"Fort Worth, TX",2021-02-01,budget
+U0323,48,F,"Los Angeles, CA",2021-09-25,budget
+U0324,22,M,"Albuquerque, NM",2023-04-01,premium
+U0325,40,M,"El Paso, TX",2022-01-02,premium
+U0326,60,F,"Phoenix, AZ",2021-10-19,mid_range
+U0327,64,M,"San Francisco, CA",2021-08-10,luxury
+U0328,26,M,"Houston, TX",2023-01-02,premium
+U0329,61,M,"San Francisco, CA",2022-07-01,premium
+U0330,55,M,"Phoenix, AZ",2023-04-12,mid_range
+U0331,30,F,"Phoenix, AZ",2023-04-06,budget
+U0332,59,F,"Dallas, TX",2023-11-17,budget
+U0333,67,F,"Oklahoma City, OK",2022-03-05,budget
+U0334,19,M,"El Paso, TX",2020-01-29,premium
+U0335,54,M,"Austin, TX",2023-12-16,mid_range
+U0336,36,F,"Indianapolis, IN",2023-10-20,premium
+U0337,18,M,"Chicago, IL",2023-09-27,budget
+U0338,69,F,"San Jose, CA",2021-05-25,luxury
+U0339,24,F,"Columbus, OH",2020-08-04,luxury
+U0340,62,F,"Boston, MA",2023-03-01,premium
+U0341,53,M,"Boston, MA",2022-12-29,budget
+U0342,48,M,"Austin, TX",2021-03-20,premium
+U0343,61,M,"Jacksonville, FL",2023-04-20,mid_range
+U0344,56,M,"Columbus, OH",2020-03-31,mid_range
+U0345,27,F,"Philadelphia, PA",2020-02-08,budget
+U0346,20,F,"Fort Worth, TX",2020-06-21,mid_range
+U0347,30,M,"Albuquerque, NM",2022-01-23,mid_range
+U0348,45,M,"Oklahoma City, OK",2022-12-17,budget
+U0349,37,M,"New York, NY",2021-04-20,premium
+U0350,25,M,"San Jose, CA",2022-04-08,mid_range
+U0351,58,M,"Charlotte, NC",2022-10-21,luxury
+U0352,20,Non-binary,"San Jose, CA",2020-12-13,mid_range
+U0353,66,M,"Dallas, TX",2023-12-03,mid_range
+U0354,50,M,"Fort Worth, TX",2022-07-22,premium
+U0355,23,M,"Fort Worth, TX",2020-02-27,mid_range
+U0356,61,F,"Boston, MA",2021-11-15,budget
+U0357,49,Non-binary,"El Paso, TX",2020-06-21,mid_range
+U0358,64,M,"Baltimore, MD",2023-03-18,mid_range
+U0359,33,F,"Los Angeles, CA",2022-06-04,premium
+U0360,38,F,"Louisville, KY",2020-07-21,premium
+U0361,54,M,"Memphis, TN",2023-06-04,budget
+U0362,36,F,"San Diego, CA",2023-11-26,mid_range
+U0363,64,F,"El Paso, TX",2023-06-10,premium
+U0364,66,F,"El Paso, TX",2023-03-12,premium
+U0365,48,F,"Milwaukee, WI",2023-10-28,mid_range
+U0366,20,M,"Memphis, TN",2021-10-17,mid_range
+U0367,40,F,"Portland, OR",2022-08-28,budget
+U0368,29,F,"Austin, TX",2023-09-15,mid_range
+U0369,49,M,"Phoenix, AZ",2022-02-22,premium
+U0370,25,F,"Jacksonville, FL",2020-12-23,mid_range
+U0371,29,F,"Louisville, KY",2023-12-02,budget
+U0372,45,F,"Indianapolis, IN",2021-01-07,luxury
+U0373,25,M,"Baltimore, MD",2023-02-19,budget
+U0374,45,M,"Chicago, IL",2021-11-06,budget
+U0375,43,Non-binary,"Baltimore, MD",2021-11-28,mid_range
+U0376,67,F,"Fort Worth, TX",2021-06-23,luxury
+U0377,45,F,"Jacksonville, FL",2022-05-18,budget
+U0378,58,M,"Dallas, TX",2022-01-09,mid_range
+U0379,44,M,"El Paso, TX",2021-05-16,mid_range
+U0380,34,M,"Fort Worth, TX",2023-05-09,premium
+U0381,50,F,"Houston, TX",2021-04-05,mid_range
+U0382,45,M,"Nashville, TN",2022-01-21,premium
+U0383,46,F,"Albuquerque, NM",2022-06-27,mid_range
+U0384,63,F,"Oklahoma City, OK",2023-06-30,premium
+U0385,23,F,"San Jose, CA",2022-06-01,mid_range
+U0386,22,M,"Los Angeles, CA",2021-03-25,luxury
+U0387,27,M,"Indianapolis, IN",2022-04-03,budget
+U0388,47,M,"Seattle, WA",2023-06-19,budget
+U0389,62,M,"El Paso, TX",2022-10-25,luxury
+U0390,50,F,"Seattle, WA",2021-01-08,mid_range
+U0391,18,F,"Phoenix, AZ",2020-05-25,premium
+U0392,49,F,"Louisville, KY",2023-06-16,mid_range
+U0393,66,M,"Dallas, TX",2022-05-02,budget
+U0394,43,M,"Charlotte, NC",2020-03-03,mid_range
+U0395,42,M,"Jacksonville, FL",2022-04-06,budget
+U0396,44,F,"Seattle, WA",2021-11-19,premium
+U0397,30,F,"Los Angeles, CA",2020-04-14,mid_range
+U0398,52,M,"Houston, TX",2021-05-25,luxury
+U0399,18,F,"Chicago, IL",2021-02-08,mid_range
+U0400,65,F,"Nashville, TN",2022-04-02,luxury
+U0401,23,M,"Austin, TX",2021-04-20,budget
+U0402,34,M,"Denver, CO",2021-12-09,budget
+U0403,48,F,"Seattle, WA",2022-02-09,budget
+U0404,40,M,"Baltimore, MD",2022-09-23,budget
+U0405,54,F,"Memphis, TN",2021-12-14,premium
+U0406,27,M,"Baltimore, MD",2020-03-23,luxury
+U0407,34,Non-binary,"Seattle, WA",2023-01-13,budget
+U0408,31,M,"El Paso, TX",2021-04-01,premium
+U0409,63,M,"Jacksonville, FL",2020-01-01,premium
+U0410,68,M,"Austin, TX",2021-11-15,budget
+U0411,30,M,"Phoenix, AZ",2021-03-24,mid_range
+U0412,66,F,"Portland, OR",2021-05-02,budget
+U0413,49,M,"Jacksonville, FL",2020-02-03,mid_range
+U0414,45,M,"San Francisco, CA",2020-04-04,budget
+U0415,25,F,"Portland, OR",2020-06-02,premium
+U0416,51,F,"San Francisco, CA",2021-03-13,budget
+U0417,20,F,"New York, NY",2023-08-22,budget
+U0418,29,M,"Fort Worth, TX",2022-12-13,mid_range
+U0419,61,M,"Boston, MA",2021-01-23,premium
+U0420,47,M,"Chicago, IL",2022-02-01,budget
+U0421,34,M,"Phoenix, AZ",2021-09-15,budget
+U0422,64,F,"Seattle, WA",2022-07-07,mid_range
+U0423,32,M,"Nashville, TN",2023-06-06,mid_range
+U0424,38,M,"Nashville, TN",2021-07-31,mid_range
+U0425,28,F,"Houston, TX",2021-03-10,premium
+U0426,56,F,"Las Vegas, NV",2023-12-16,mid_range
+U0427,51,F,"Columbus, OH",2022-03-16,mid_range
+U0428,67,M,"Austin, TX",2020-04-07,premium
+U0429,35,M,"Portland, OR",2022-03-08,budget
+U0430,32,M,"El Paso, TX",2022-05-08,budget
+U0431,68,F,"El Paso, TX",2021-03-22,premium
+U0432,51,M,"Louisville, KY",2023-08-24,budget
+U0433,55,M,"Portland, OR",2022-09-10,mid_range
+U0434,32,F,"Seattle, WA",2022-10-16,budget
+U0435,47,F,"Seattle, WA",2022-01-28,budget
+U0436,59,M,"Jacksonville, FL",2020-03-21,premium
+U0437,22,F,"Columbus, OH",2022-03-07,premium
+U0438,21,F,"San Jose, CA",2020-05-17,mid_range
+U0439,34,M,"Denver, CO",2023-09-15,mid_range
+U0440,34,M,"Indianapolis, IN",2022-09-10,budget
+U0441,22,M,"Baltimore, MD",2021-06-29,mid_range
+U0442,23,M,"Dallas, TX",2020-02-22,mid_range
+U0443,19,F,"Baltimore, MD",2020-07-23,mid_range
+U0444,60,F,"Nashville, TN",2020-02-12,mid_range
+U0445,65,F,"New York, NY",2020-04-20,mid_range
+U0446,40,F,"Boston, MA",2023-04-21,budget
+U0447,33,M,"Boston, MA",2020-04-04,premium
+U0448,28,F,"Jacksonville, FL",2023-10-29,budget
+U0449,33,F,"Denver, CO",2022-06-18,mid_range
+U0450,57,M,"Portland, OR",2022-06-18,mid_range
+U0451,42,M,"Portland, OR",2023-05-03,mid_range
+U0452,49,M,"Charlotte, NC",2023-05-03,budget
+U0453,44,M,"Portland, OR",2020-04-02,budget
+U0454,49,F,"Nashville, TN",2020-03-01,budget
+U0455,68,M,"Philadelphia, PA",2023-11-27,premium
+U0456,38,M,"Chicago, IL",2022-10-25,budget
+U0457,35,F,"Indianapolis, IN",2021-08-26,mid_range
+U0458,59,M,"San Antonio, TX",2021-06-17,premium
+U0459,38,M,"Columbus, OH",2022-04-17,budget
+U0460,18,F,"Denver, CO",2021-10-06,mid_range
+U0461,58,F,"Los Angeles, CA",2021-06-07,budget
+U0462,43,Non-binary,"Los Angeles, CA",2022-12-05,budget
+U0463,51,M,"San Antonio, TX",2023-01-06,premium
+U0464,43,F,"San Jose, CA",2023-01-01,budget
+U0465,43,M,"Portland, OR",2020-09-05,mid_range
+U0466,64,M,"Seattle, WA",2023-02-18,mid_range
+U0467,39,F,"Louisville, KY",2020-08-26,mid_range
+U0468,47,M,"Fort Worth, TX",2020-04-16,premium
+U0469,65,M,"New York, NY",2020-12-02,mid_range
+U0470,43,M,"Austin, TX",2022-03-14,mid_range
+U0471,18,F,"Boston, MA",2020-01-08,mid_range
+U0472,66,M,"Fort Worth, TX",2023-06-30,budget
+U0473,69,M,"Memphis, TN",2021-12-19,luxury
+U0474,64,M,"Boston, MA",2021-09-30,premium
+U0475,39,M,"Baltimore, MD",2021-06-09,budget
+U0476,43,M,"Fort Worth, TX",2020-01-28,mid_range
+U0477,40,M,"San Jose, CA",2020-03-18,mid_range
+U0478,41,M,"Las Vegas, NV",2023-11-10,budget
+U0479,62,F,"Houston, TX",2021-10-27,mid_range
+U0480,31,M,"Las Vegas, NV",2021-11-29,budget
+U0481,68,F,"Louisville, KY",2022-10-27,mid_range
+U0482,20,M,"Houston, TX",2022-07-07,budget
+U0483,63,M,"Nashville, TN",2020-12-28,budget
+U0484,64,F,"Chicago, IL",2023-07-21,budget
+U0485,55,F,"Indianapolis, IN",2022-01-08,mid_range
+U0486,68,F,"Denver, CO",2022-11-04,mid_range
+U0487,42,F,"Denver, CO",2021-04-29,mid_range
+U0488,45,Non-binary,"Austin, TX",2021-12-14,premium
+U0489,56,F,"Phoenix, AZ",2023-07-20,mid_range
+U0490,56,M,"Oklahoma City, OK",2020-03-26,budget
+U0491,43,M,"Los Angeles, CA",2020-05-05,mid_range
+U0492,61,M,"Charlotte, NC",2021-06-20,mid_range
+U0493,34,M,"Louisville, KY",2023-05-20,budget
+U0494,42,F,"Baltimore, MD",2023-11-18,budget
+U0495,20,F,"Fort Worth, TX",2020-08-20,mid_range
+U0496,62,F,"Memphis, TN",2023-03-15,mid_range
+U0497,64,M,"Albuquerque, NM",2020-08-15,premium
+U0498,64,F,"Austin, TX",2020-02-03,mid_range
+U0499,64,F,"Los Angeles, CA",2023-10-24,mid_range
+U0500,61,F,"Louisville, KY",2021-08-17,budget

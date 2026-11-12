@@ -1,0 +1,38 @@
+============================================================
+E-COMMERCE RECOMMENDATION ENGINE — DATA SUMMARY
+Generated: 2026-11-12 22:31:11
+============================================================
+
+USERS (500 total)
+  Age range  : 18 – 69
+  Avg age    : 44.5
+  Segment 'budget': 159
+  Segment 'luxury': 29
+  Segment 'mid_range': 219
+  Segment 'premium': 93
+
+PRODUCTS (200 total)
+  Price range: $6.62 – $1499.96
+  Avg price  : $203.50
+  Category distribution:
+    Automotive          : 20
+    Beauty              : 20
+    Books               : 20
+    Clothing            : 20
+    Electronics         : 20
+    Food                : 20
+    Health              : 20
+    Home & Garden       : 20
+    Sports              : 20
+    Toys                : 20
+
+INTERACTIONS (15,004 total)
+  Date span  : 2024-01-01 → 2024-06-29
+  cart      : 3,287 (21.9%)
+  purchase  : 1,932 (12.9%)
+  view      : 9,785 (65.2%)
+
+  Ratings (purchase only):
+    Count    : 1,932
+    Avg      : 4.04
+    Min/Max  : 1.0 / 5.0

@@ -1,0 +1,201 @@
+item_id,name,category,subcategory,price,description,brand,avg_rating,num_reviews
+I0001,Samsung Security Camera,Electronics,Smart Home,979.8,Best-selling Samsung Security Camera loved by millions worldwide for its unmatched quality and affordable price.,Samsung,3.1,2477
+I0002,Logitech Security Camera,Electronics,Cameras,798.43,"Ergonomic Logitech Security Camera engineered for comfort and performance, perfect for daily activities and adventures.",Logitech,3.3,2665
+I0003,JBL Business Laptop,Electronics,Laptops,1168.45,High-quality JBL Business Laptop with premium materials and excellent performance for everyday use by all ages.,JBL,4.4,2744
+I0004,Anker Gaming Mouse,Electronics,Gaming,514.64,Award-winning Anker Gaming Mouse trusted by thousands of customers for its outstanding quality and reliability.,Anker,4.1,1766
+I0005,LG Chromebook,Electronics,Laptops,1313.71,Feature-rich LG Chromebook packed with everything you need to get the most out of your experience.,LG,3.7,3519
+I0006,Apple Smart Thermostat,Electronics,Smart Home,486.03,Eco-friendly Apple Smart Thermostat made with sustainable materials while maintaining exceptional quality standards.,Apple,4.3,1980
+I0007,Apple Security Camera,Electronics,Cameras,1071.98,Compact and lightweight Apple Security Camera delivering powerful performance in a convenient portable package.,Apple,3.2,2367
+I0008,Anker Mirrorless Camera,Electronics,Cameras,1015.06,Best-selling Anker Mirrorless Camera loved by millions worldwide for its unmatched quality and affordable price.,Anker,4.7,881
+I0009,Razer Smart Speaker,Electronics,Smart Home,979.65,"Ergonomic Razer Smart Speaker engineered for comfort and performance, perfect for daily activities and adventures.",Razer,3.8,3817
+I0010,Anker Over-Ear Headphones,Electronics,Headphones,294.98,Professional-grade Anker Over-Ear Headphones used by experts and enthusiasts for superior results every time.,Anker,3.4,3453
+I0011,Bose Mirrorless Camera,Electronics,Cameras,1499.96,Premium Bose Mirrorless Camera offering exceptional value with cutting-edge features and long-lasting durability.,Bose,3.3,1317
+I0012,Samsung Gaming Chair,Electronics,Gaming,1163.18,Top-rated Samsung Gaming Chair with rave reviews from satisfied customers who love its performance and design.,Samsung,4.7,1465
+I0013,Sony E-Reader,Electronics,Tablets,1318.29,Feature-rich Sony E-Reader packed with everything you need to get the most out of your experience.,Sony,4.2,2714
+I0014,Apple Mirrorless Camera,Electronics,Cameras,295.83,Feature-rich Apple Mirrorless Camera packed with everything you need to get the most out of your experience.,Apple,4.4,2329
+I0015,Apple Controller,Electronics,Gaming,94.22,Best-selling Apple Controller loved by millions worldwide for its unmatched quality and affordable price.,Apple,3.7,1738
+I0016,Logitech Budget Smartphone,Electronics,Smartphones,448.83,"Versatile Logitech Budget Smartphone suitable for beginners and experts alike, backed by stellar customer reviews.",Logitech,4.5,1610
+I0017,Razer Smartphone Ultra,Electronics,Smartphones,484.91,"Versatile Razer Smartphone Ultra suitable for beginners and experts alike, backed by stellar customer reviews.",Razer,4.6,2568
+I0018,Bose Gaming Headset,Electronics,Gaming,1027.1,"Versatile Bose Gaming Headset suitable for beginners and experts alike, backed by stellar customer reviews.",Bose,4.1,3426
+I0019,LG Webcam,Electronics,Cameras,769.26,Durable and reliable LG Webcam built to last with top-notch craftsmanship and superior comfort.,LG,3.8,3522
+I0020,Bose Gaming Chair,Electronics,Gaming,233.44,Eco-friendly Bose Gaming Chair made with sustainable materials while maintaining exceptional quality standards.,Bose,3.5,2402
+I0021,Under Armour Rain Jacket,Clothing,Outerwear,280.94,Compact and lightweight Under Armour Rain Jacket delivering powerful performance in a convenient portable package.,Under Armour,4.4,3740
+I0022,Zara Classic T-Shirt,Clothing,Men's Tops,231.29,Top-rated Zara Classic T-Shirt with rave reviews from satisfied customers who love its performance and design.,Zara,3.5,2875
+I0023,Levi's Training Pants,Clothing,Activewear,36.59,Stylish and functional Levi's Training Pants that combines modern aesthetics with practical everyday usability.,Levi's,4.8,1165
+I0024,Under Armour Puffer Jacket,Clothing,Outerwear,130.31,"Ergonomic Under Armour Puffer Jacket engineered for comfort and performance, perfect for daily activities and adventures.",Under Armour,3.8,4859
+I0025,Puma Floral Blouse,Clothing,Women's Tops,118.71,Top-rated Puma Floral Blouse with rave reviews from satisfied customers who love its performance and design.,Puma,3.1,247
+I0026,Under Armour Oxford Shirt,Clothing,Men's Tops,49.89,Stylish and functional Under Armour Oxford Shirt that combines modern aesthetics with practical everyday usability.,Under Armour,3.6,2595
+I0027,Levi's Fleece Hoodie,Clothing,Outerwear,140.08,Experience the best in class Levi's Fleece Hoodie featuring advanced technology and sleek modern design.,Levi's,3.0,1068
+I0028,Zara Oxford Shirt,Clothing,Men's Tops,252.13,Best-selling Zara Oxford Shirt loved by millions worldwide for its unmatched quality and affordable price.,Zara,4.1,4329
+I0029,Uniqlo Training Pants,Clothing,Activewear,42.23,Premium Uniqlo Training Pants offering exceptional value with cutting-edge features and long-lasting durability.,Uniqlo,3.6,2600
+I0030,Nike Oxford Shirt,Clothing,Men's Tops,131.74,"Versatile Nike Oxford Shirt suitable for beginners and experts alike, backed by stellar customer reviews.",Nike,4.6,924
+I0031,Adidas Flannel Shirt,Clothing,Men's Tops,183.04,Compact and lightweight Adidas Flannel Shirt delivering powerful performance in a convenient portable package.,Adidas,3.0,10
+I0032,H&M Sports Bra,Clothing,Activewear,94.46,"Ergonomic H&M Sports Bra engineered for comfort and performance, perfect for daily activities and adventures.",H&M,3.0,472
+I0033,Reebok Striped Shirt,Clothing,Women's Tops,64.31,Compact and lightweight Reebok Striped Shirt delivering powerful performance in a convenient portable package.,Reebok,4.3,4175
+I0034,Adidas Sandals,Clothing,Footwear,167.77,Compact and lightweight Adidas Sandals delivering powerful performance in a convenient portable package.,Adidas,4.6,8
+I0035,Nike Training Pants,Clothing,Activewear,263.26,Award-winning Nike Training Pants trusted by thousands of customers for its outstanding quality and reliability.,Nike,3.1,650
+I0036,Zara Running Shoes,Clothing,Footwear,113.55,Innovative Zara Running Shoes designed for maximum efficiency and ease of use in any situation.,Zara,3.1,122
+I0037,Adidas Canvas Tote,Clothing,Accessories,223.19,High-quality Adidas Canvas Tote with premium materials and excellent performance for everyday use by all ages.,Adidas,3.7,2933
+I0038,Uniqlo Hiking Boots,Clothing,Footwear,245.91,Professional-grade Uniqlo Hiking Boots used by experts and enthusiasts for superior results every time.,Uniqlo,3.4,2556
+I0039,Gap Sunglasses,Clothing,Accessories,193.19,Experience the best in class Gap Sunglasses featuring advanced technology and sleek modern design.,Gap,4.6,4294
+I0040,Gap Baseball Cap,Clothing,Accessories,95.09,Innovative Gap Baseball Cap designed for maximum efficiency and ease of use in any situation.,Gap,3.1,851
+I0041,Random House Romance Novel,Books,Fiction,33.82,Compact and lightweight Random House Romance Novel delivering powerful performance in a convenient portable package.,Random House,5.0,2767
+I0042,Scholastic Python Guide,Books,Programming,46.67,"Ergonomic Scholastic Python Guide engineered for comfort and performance, perfect for daily activities and adventures.",Scholastic,3.4,1146
+I0043,Penguin Activity Book,Books,Children's,20.74,Award-winning Penguin Activity Book trusted by thousands of customers for its outstanding quality and reliability.,Penguin,4.6,1815
+I0044,Pearson Data Science Guide,Books,Programming,24.3,Best-selling Pearson Data Science Guide loved by millions worldwide for its unmatched quality and affordable price.,Pearson,3.4,728
+I0045,Random House Web Dev Book,Books,Programming,20.39,Award-winning Random House Web Dev Book trusted by thousands of customers for its outstanding quality and reliability.,Random House,3.2,229
+I0046,Packt Science Fiction Novel,Books,Fiction,59.73,Premium Packt Science Fiction Novel offering exceptional value with cutting-edge features and long-lasting durability.,Packt,3.4,4632
+I0047,HarperCollins Physics Guide,Books,Science,23.7,"Versatile HarperCollins Physics Guide suitable for beginners and experts alike, backed by stellar customer reviews.",HarperCollins,3.6,4213
+I0048,Packt Ancient Civilizations,Books,History,43.24,High-quality Packt Ancient Civilizations with premium materials and excellent performance for everyday use by all ages.,Packt,3.7,4659
+I0049,Random House Finance Guide,Books,Self-Help,59.89,Professional-grade Random House Finance Guide used by experts and enthusiasts for superior results every time.,Random House,3.5,2053
+I0050,HarperCollins Thriller,Books,Fiction,25.61,Eco-friendly HarperCollins Thriller made with sustainable materials while maintaining exceptional quality standards.,HarperCollins,4.6,4754
+I0051,Penguin Memoir,Books,Non-Fiction,51.82,"Versatile Penguin Memoir suitable for beginners and experts alike, backed by stellar customer reviews.",Penguin,4.4,4420
+I0052,O'Reilly Mystery Novel,Books,Fiction,18.73,"Ergonomic O'Reilly Mystery Novel engineered for comfort and performance, perfect for daily activities and adventures.",O'Reilly,4.3,1578
+I0053,Penguin Web Dev Book,Books,Programming,14.28,"Ergonomic Penguin Web Dev Book engineered for comfort and performance, perfect for daily activities and adventures.",Penguin,3.9,1833
+I0054,Pearson Physics Guide,Books,Science,36.98,Award-winning Pearson Physics Guide trusted by thousands of customers for its outstanding quality and reliability.,Pearson,4.1,1922
+I0055,Scholastic Chemistry Textbook,Books,Science,57.86,Durable and reliable Scholastic Chemistry Textbook built to last with top-notch craftsmanship and superior comfort.,Scholastic,3.1,4239
+I0056,Packt Web Dev Book,Books,Programming,12.35,Best-selling Packt Web Dev Book loved by millions worldwide for its unmatched quality and affordable price.,Packt,4.5,2031
+I0057,Wiley Web Dev Book,Books,Programming,21.41,"Versatile Wiley Web Dev Book suitable for beginners and experts alike, backed by stellar customer reviews.",Wiley,4.8,3749
+I0058,HarperCollins Memoir,Books,Non-Fiction,52.04,Top-rated HarperCollins Memoir with rave reviews from satisfied customers who love its performance and design.,HarperCollins,3.9,906
+I0059,Pearson Productivity Guide,Books,Self-Help,49.76,"Ergonomic Pearson Productivity Guide engineered for comfort and performance, perfect for daily activities and adventures.",Pearson,4.9,4790
+I0060,Random House Productivity Guide,Books,Self-Help,35.69,Premium Random House Productivity Guide offering exceptional value with cutting-edge features and long-lasting durability.,Random House,3.6,2044
+I0061,Dyson Instant Pot,Home & Garden,Kitchenware,311.63,Innovative Dyson Instant Pot designed for maximum efficiency and ease of use in any situation.,Dyson,3.2,14
+I0062,Black+Decker Blender,Home & Garden,Kitchenware,28.42,"Ergonomic Black+Decker Blender engineered for comfort and performance, perfect for daily activities and adventures.",Black+Decker,4.1,265
+I0063,Dyson Watering Can,Home & Garden,Garden Tools,532.04,Award-winning Dyson Watering Can trusted by thousands of customers for its outstanding quality and reliability.,Dyson,3.1,1678
+I0064,Breville Wall Shelf,Home & Garden,Storage,254.13,Feature-rich Breville Wall Shelf packed with everything you need to get the most out of your experience.,Breville,3.8,2224
+I0065,Dyson Bookshelf,Home & Garden,Furniture,390.04,Eco-friendly Dyson Bookshelf made with sustainable materials while maintaining exceptional quality standards.,Dyson,3.9,2065
+I0066,Pottery Barn Floor Lamp,Home & Garden,Lighting,528.35,Eco-friendly Pottery Barn Floor Lamp made with sustainable materials while maintaining exceptional quality standards.,Pottery Barn,4.6,3718
+I0067,Dyson Floor Lamp,Home & Garden,Lighting,266.94,High-quality Dyson Floor Lamp with premium materials and excellent performance for everyday use by all ages.,Dyson,4.8,1624
+I0068,Dyson Bookshelf Plus,Home & Garden,Furniture,108.06,Innovative Dyson Bookshelf Plus designed for maximum efficiency and ease of use in any situation.,Dyson,4.9,325
+I0069,Cuisinart Microfiber Sheet Set,Home & Garden,Bedding,160.1,Compact and lightweight Cuisinart Microfiber Sheet Set delivering powerful performance in a convenient portable package.,Cuisinart,4.3,1347
+I0070,Dyson Memory Foam Pillow,Home & Garden,Bedding,373.66,Eco-friendly Dyson Memory Foam Pillow made with sustainable materials while maintaining exceptional quality standards.,Dyson,3.2,2381
+I0071,Dyson Knife Block Set,Home & Garden,Kitchenware,399.67,Feature-rich Dyson Knife Block Set packed with everything you need to get the most out of your experience.,Dyson,4.4,2837
+I0072,IKEA Microfiber Sheet Set,Home & Garden,Bedding,60.67,Professional-grade IKEA Microfiber Sheet Set used by experts and enthusiasts for superior results every time.,IKEA,4.9,2829
+I0073,Cuisinart Floor Lamp,Home & Garden,Lighting,463.19,Eco-friendly Cuisinart Floor Lamp made with sustainable materials while maintaining exceptional quality standards.,Cuisinart,3.8,1999
+I0074,Breville Storage Ottoman,Home & Garden,Furniture,183.03,"Versatile Breville Storage Ottoman suitable for beginners and experts alike, backed by stellar customer reviews.",Breville,4.9,2963
+I0075,Home Depot Instant Pot,Home & Garden,Kitchenware,279.22,Durable and reliable Home Depot Instant Pot built to last with top-notch craftsmanship and superior comfort.,Home Depot,4.4,2043
+I0076,Home Depot Planting Kit,Home & Garden,Garden Tools,285.62,Durable and reliable Home Depot Planting Kit built to last with top-notch craftsmanship and superior comfort.,Home Depot,3.7,3495
+I0077,Pottery Barn Memory Foam Pillow,Home & Garden,Bedding,585.53,"Ergonomic Pottery Barn Memory Foam Pillow engineered for comfort and performance, perfect for daily activities and adventures.",Pottery Barn,3.3,3682
+I0078,KitchenAid Smart Light Strip,Home & Garden,Lighting,154.89,"Versatile KitchenAid Smart Light Strip suitable for beginners and experts alike, backed by stellar customer reviews.",KitchenAid,3.2,1123
+I0079,Dyson Non-Stick Pan Set,Home & Garden,Kitchenware,42.7,Stylish and functional Dyson Non-Stick Pan Set that combines modern aesthetics with practical everyday usability.,Dyson,4.9,1609
+I0080,Home Depot Floor Lamp,Home & Garden,Lighting,578.09,Stylish and functional Home Depot Floor Lamp that combines modern aesthetics with practical everyday usability.,Home Depot,4.8,4032
+I0081,Speedo Swim Cap,Sports,Swimming,383.92,Compact and lightweight Speedo Swim Cap delivering powerful performance in a convenient portable package.,Speedo,4.0,240
+I0082,Garmin Football,Sports,Team Sports,253.7,Award-winning Garmin Football trusted by thousands of customers for its outstanding quality and reliability.,Garmin,3.2,1974
+I0083,Garmin Dumbbell Set,Sports,Fitness Equipment,115.41,High-quality Garmin Dumbbell Set with premium materials and excellent performance for everyday use by all ages.,Garmin,3.7,4434
+I0084,Garmin Swim Bag,Sports,Swimming,442.34,"Versatile Garmin Swim Bag suitable for beginners and experts alike, backed by stellar customer reviews.",Garmin,4.3,1913
+I0085,New Balance Swim Goggles,Sports,Swimming,425.1,Top-rated New Balance Swim Goggles with rave reviews from satisfied customers who love its performance and design.,New Balance,3.9,380
+I0086,Speedo Swimsuit,Sports,Swimming,189.3,Feature-rich Speedo Swimsuit packed with everything you need to get the most out of your experience.,Speedo,3.8,3535
+I0087,Callaway Yoga Mat,Sports,Fitness Equipment,281.07,Compact and lightweight Callaway Yoga Mat delivering powerful performance in a convenient portable package.,Callaway,3.1,2640
+I0088,New Balance Football,Sports,Team Sports,414.39,Feature-rich New Balance Football packed with everything you need to get the most out of your experience.,New Balance,4.2,1575
+I0089,Under Armour Running Shoes,Sports,Running,203.0,"Ergonomic Under Armour Running Shoes engineered for comfort and performance, perfect for daily activities and adventures.",Under Armour,4.6,2565
+I0090,Speedo Dumbbell Set,Sports,Fitness Equipment,107.53,Compact and lightweight Speedo Dumbbell Set delivering powerful performance in a convenient portable package.,Speedo,4.0,3396
+I0091,Nike Running Shoes,Sports,Running,77.14,"Versatile Nike Running Shoes suitable for beginners and experts alike, backed by stellar customer reviews.",Nike,3.7,2970
+I0092,Garmin Dumbbell Set v2,Sports,Fitness Equipment,447.62,Top-rated Garmin Dumbbell Set v2 with rave reviews from satisfied customers who love its performance and design.,Garmin,3.3,3648
+I0093,Speedo Dumbbell Set SE,Sports,Fitness Equipment,495.39,Premium Speedo Dumbbell Set SE offering exceptional value with cutting-edge features and long-lasting durability.,Speedo,4.5,3855
+I0094,Speedo Jump Rope,Sports,Fitness Equipment,415.85,Best-selling Speedo Jump Rope loved by millions worldwide for its unmatched quality and affordable price.,Speedo,4.1,877
+I0095,Wilson Pull-Up Bar,Sports,Fitness Equipment,409.71,Eco-friendly Wilson Pull-Up Bar made with sustainable materials while maintaining exceptional quality standards.,Wilson,3.7,1257
+I0096,Trek Running Shorts,Sports,Running,160.75,Stylish and functional Trek Running Shorts that combines modern aesthetics with practical everyday usability.,Trek,4.8,1319
+I0097,Nike Headlamp,Sports,Outdoor,242.54,Professional-grade Nike Headlamp used by experts and enthusiasts for superior results every time.,Nike,4.9,4825
+I0098,Callaway Resistance Bands,Sports,Fitness Equipment,295.92,Eco-friendly Callaway Resistance Bands made with sustainable materials while maintaining exceptional quality standards.,Callaway,3.3,2903
+I0099,Trek Hiking Backpack,Sports,Outdoor,412.6,Feature-rich Trek Hiking Backpack packed with everything you need to get the most out of your experience.,Trek,3.5,82
+I0100,Adidas Hiking Backpack,Sports,Outdoor,19.27,Durable and reliable Adidas Hiking Backpack built to last with top-notch craftsmanship and superior comfort.,Adidas,3.6,2626
+I0101,Olay Perfume Set,Beauty,Fragrances,77.75,"Versatile Olay Perfume Set suitable for beginners and experts alike, backed by stellar customer reviews.",Olay,4.2,4232
+I0102,Dove Face Mask Set,Beauty,Skincare,35.05,Eco-friendly Dove Face Mask Set made with sustainable materials while maintaining exceptional quality standards.,Dove,3.7,605
+I0103,Clinique Perfume Set,Beauty,Fragrances,50.48,Top-rated Clinique Perfume Set with rave reviews from satisfied customers who love its performance and design.,Clinique,3.3,1070
+I0104,CeraVe Nail Care Kit,Beauty,Personal Care,56.36,Best-selling CeraVe Nail Care Kit loved by millions worldwide for its unmatched quality and affordable price.,CeraVe,4.5,2141
+I0105,NYX Mascara,Beauty,Makeup,143.8,Premium NYX Mascara offering exceptional value with cutting-edge features and long-lasting durability.,NYX,3.6,2454
+I0106,Estee Lauder Hair Mask,Beauty,Haircare,107.2,"Versatile Estee Lauder Hair Mask suitable for beginners and experts alike, backed by stellar customer reviews.",Estee Lauder,4.4,2348
+I0107,NYX Lipstick Set,Beauty,Makeup,86.26,Best-selling NYX Lipstick Set loved by millions worldwide for its unmatched quality and affordable price.,NYX,4.9,1868
+I0108,Estee Lauder Foundation,Beauty,Makeup,88.14,Top-rated Estee Lauder Foundation with rave reviews from satisfied customers who love its performance and design.,Estee Lauder,4.1,1323
+I0109,CeraVe Body Mist,Beauty,Fragrances,47.11,Best-selling CeraVe Body Mist loved by millions worldwide for its unmatched quality and affordable price.,CeraVe,3.6,4716
+I0110,CeraVe Eye Cream,Beauty,Skincare,100.11,Innovative CeraVe Eye Cream designed for maximum efficiency and ease of use in any situation.,CeraVe,4.5,3602
+I0111,Clinique Hair Mask,Beauty,Haircare,140.28,Durable and reliable Clinique Hair Mask built to last with top-notch craftsmanship and superior comfort.,Clinique,4.4,3767
+I0112,Olay Sunscreen SPF 50,Beauty,Skincare,12.35,Innovative Olay Sunscreen SPF 50 designed for maximum efficiency and ease of use in any situation.,Olay,4.8,4675
+I0113,L'Oreal Shampoo,Beauty,Haircare,64.92,Experience the best in class L'Oreal Shampoo featuring advanced technology and sleek modern design.,L'Oreal,4.4,2195
+I0114,L'Oreal Hair Oil,Beauty,Haircare,146.79,Eco-friendly L'Oreal Hair Oil made with sustainable materials while maintaining exceptional quality standards.,L'Oreal,3.3,997
+I0115,NYX Body Mist,Beauty,Fragrances,114.6,Premium NYX Body Mist offering exceptional value with cutting-edge features and long-lasting durability.,NYX,3.6,2717
+I0116,Neutrogena Face Mask Set,Beauty,Skincare,38.66,Stylish and functional Neutrogena Face Mask Set that combines modern aesthetics with practical everyday usability.,Neutrogena,4.5,2197
+I0117,Dove Eye Cream,Beauty,Skincare,132.92,Top-rated Dove Eye Cream with rave reviews from satisfied customers who love its performance and design.,Dove,3.4,1253
+I0118,Maybelline Eye Cream,Beauty,Skincare,32.01,Stylish and functional Maybelline Eye Cream that combines modern aesthetics with practical everyday usability.,Maybelline,4.5,3059
+I0119,L'Oreal Foundation,Beauty,Makeup,48.26,Top-rated L'Oreal Foundation with rave reviews from satisfied customers who love its performance and design.,L'Oreal,4.2,4603
+I0120,Estee Lauder Eyeshadow Palette,Beauty,Makeup,148.41,"Versatile Estee Lauder Eyeshadow Palette suitable for beginners and experts alike, backed by stellar customer reviews.",Estee Lauder,4.1,4038
+I0121,Hot Wheels Trivia Game,Toys,Board Games,45.01,Durable and reliable Hot Wheels Trivia Game built to last with top-notch craftsmanship and superior comfort.,Hot Wheels,3.2,2002
+I0122,Hot Wheels Frisbee,Toys,Outdoor Toys,145.96,"Ergonomic Hot Wheels Frisbee engineered for comfort and performance, perfect for daily activities and adventures.",Hot Wheels,3.0,4921
+I0123,Fisher-Price Alphabet Puzzle,Toys,Educational,125.29,Award-winning Fisher-Price Alphabet Puzzle trusted by thousands of customers for its outstanding quality and reliability.,Fisher-Price,4.3,3692
+I0124,VTech Fashion Doll,Toys,Dolls,84.95,Durable and reliable VTech Fashion Doll built to last with top-notch craftsmanship and superior comfort.,VTech,3.2,2156
+I0125,VTech Baby Doll,Toys,Dolls,9.3,"Versatile VTech Baby Doll suitable for beginners and experts alike, backed by stellar customer reviews.",VTech,3.8,4023
+I0126,VTech Science Kit,Toys,Educational,119.82,Premium VTech Science Kit offering exceptional value with cutting-edge features and long-lasting durability.,VTech,4.1,3115
+I0127,VTech Jump Rope Set,Toys,Outdoor Toys,19.92,Premium VTech Jump Rope Set offering exceptional value with cutting-edge features and long-lasting durability.,VTech,3.2,1975
+I0128,Play-Doh Party Game,Toys,Board Games,185.23,Professional-grade Play-Doh Party Game used by experts and enthusiasts for superior results every time.,Play-Doh,4.8,202
+I0129,Hasbro Science Kit,Toys,Educational,78.56,Durable and reliable Hasbro Science Kit built to last with top-notch craftsmanship and superior comfort.,Hasbro,3.4,2631
+I0130,Mattel Paper Doll Set,Toys,Dolls,151.56,Award-winning Mattel Paper Doll Set trusted by thousands of customers for its outstanding quality and reliability.,Mattel,4.2,1207
+I0131,Hot Wheels Bubbles Kit,Toys,Outdoor Toys,161.97,Professional-grade Hot Wheels Bubbles Kit used by experts and enthusiasts for superior results every time.,Hot Wheels,4.7,2040
+I0132,Hasbro Party Game,Toys,Board Games,93.77,Experience the best in class Hasbro Party Game featuring advanced technology and sleek modern design.,Hasbro,4.4,482
+I0133,Hasbro Coding Kit,Toys,STEM,167.11,Innovative Hasbro Coding Kit designed for maximum efficiency and ease of use in any situation.,Hasbro,4.8,1259
+I0134,Mattel Electronics Kit,Toys,STEM,70.99,Experience the best in class Mattel Electronics Kit featuring advanced technology and sleek modern design.,Mattel,4.0,927
+I0135,Fisher-Price Bubbles Kit,Toys,Outdoor Toys,101.84,"Versatile Fisher-Price Bubbles Kit suitable for beginners and experts alike, backed by stellar customer reviews.",Fisher-Price,4.8,424
+I0136,Hot Wheels Collectible Figure,Toys,Action Figures,106.53,High-quality Hot Wheels Collectible Figure with premium materials and excellent performance for everyday use by all ages.,Hot Wheels,3.9,2209
+I0137,Hot Wheels Robot Building Set,Toys,STEM,146.86,Stylish and functional Hot Wheels Robot Building Set that combines modern aesthetics with practical everyday usability.,Hot Wheels,3.8,2602
+I0138,Fisher-Price Dinosaur Set,Toys,Action Figures,22.01,Best-selling Fisher-Price Dinosaur Set loved by millions worldwide for its unmatched quality and affordable price.,Fisher-Price,3.8,1125
+I0139,LEGO Superhero Figure,Toys,Action Figures,197.33,Premium LEGO Superhero Figure offering exceptional value with cutting-edge features and long-lasting durability.,LEGO,3.9,3073
+I0140,Mattel Baby Doll,Toys,Dolls,155.03,Eco-friendly Mattel Baby Doll made with sustainable materials while maintaining exceptional quality standards.,Mattel,5.0,955
+I0141,Bob's Red Mill Pre-Workout,Food,Supplements,29.11,Award-winning Bob's Red Mill Pre-Workout trusted by thousands of customers for its outstanding quality and reliability.,Bob's Red Mill,4.8,2341
+I0142,Nestle Collagen Peptides,Food,Supplements,11.44,Experience the best in class Nestle Collagen Peptides featuring advanced technology and sleek modern design.,Nestle,4.7,2248
+I0143,Amy's Herbal Tea,Food,Beverages,11.12,Stylish and functional Amy's Herbal Tea that combines modern aesthetics with practical everyday usability.,Amy's,5.0,2650
+I0144,Kellogg's Granola,Food,Snacks,29.92,Award-winning Kellogg's Granola trusted by thousands of customers for its outstanding quality and reliability.,Kellogg's,4.4,1862
+I0145,Amy's BBQ Sauce,Food,Condiments,17.85,Premium Amy's BBQ Sauce offering exceptional value with cutting-edge features and long-lasting durability.,Amy's,3.7,4617
+I0146,Nestle Green Tea Pack,Food,Beverages,49.32,Professional-grade Nestle Green Tea Pack used by experts and enthusiasts for superior results every time.,Nestle,3.8,1870
+I0147,Clif Bar Protein Bar,Food,Snacks,7.76,"Versatile Clif Bar Protein Bar suitable for beginners and experts alike, backed by stellar customer reviews.",Clif Bar,4.2,2917
+I0148,Kellogg's BBQ Sauce,Food,Condiments,45.46,Innovative Kellogg's BBQ Sauce designed for maximum efficiency and ease of use in any situation.,Kellogg's,3.8,2858
+I0149,Clif Bar Hot Sauce,Food,Condiments,11.84,Innovative Clif Bar Hot Sauce designed for maximum efficiency and ease of use in any situation.,Clif Bar,5.0,4915
+I0150,Bob's Red Mill Almond Flour,Food,Baking,37.47,"Ergonomic Bob's Red Mill Almond Flour engineered for comfort and performance, perfect for daily activities and adventures.",Bob's Red Mill,4.3,3233
+I0151,Larabar Coffee Blend,Food,Beverages,59.19,Award-winning Larabar Coffee Blend trusted by thousands of customers for its outstanding quality and reliability.,Larabar,4.0,3724
+I0152,Larabar Organic Honey,Food,Organic,35.17,Best-selling Larabar Organic Honey loved by millions worldwide for its unmatched quality and affordable price.,Larabar,4.2,3233
+I0153,Amy's Herbal Tea 2024,Food,Beverages,6.62,Eco-friendly Amy's Herbal Tea 2024 made with sustainable materials while maintaining exceptional quality standards.,Amy's,3.7,2376
+I0154,Amy's Almond Flour,Food,Baking,21.84,Durable and reliable Amy's Almond Flour built to last with top-notch craftsmanship and superior comfort.,Amy's,3.8,2896
+I0155,Amy's Organic Oats,Food,Organic,46.24,Stylish and functional Amy's Organic Oats that combines modern aesthetics with practical everyday usability.,Amy's,3.9,3761
+I0156,Larabar Coffee Blend Classic,Food,Beverages,29.92,Award-winning Larabar Coffee Blend Classic trusted by thousands of customers for its outstanding quality and reliability.,Larabar,3.1,4230
+I0157,Kind Pre-Workout,Food,Supplements,17.59,Eco-friendly Kind Pre-Workout made with sustainable materials while maintaining exceptional quality standards.,Kind,3.4,99
+I0158,Annie's Granola,Food,Snacks,9.17,Innovative Annie's Granola designed for maximum efficiency and ease of use in any situation.,Annie's,4.4,2679
+I0159,Larabar Popcorn,Food,Snacks,41.72,Stylish and functional Larabar Popcorn that combines modern aesthetics with practical everyday usability.,Larabar,4.2,1960
+I0160,Clif Bar Trail Mix,Food,Snacks,44.55,"Versatile Clif Bar Trail Mix suitable for beginners and experts alike, backed by stellar customer reviews.",Clif Bar,4.1,798
+I0161,3M Jump Starter,Automotive,Tools,97.22,Innovative 3M Jump Starter designed for maximum efficiency and ease of use in any situation.,3M,4.8,1839
+I0162,Turtle Wax Socket Set,Automotive,Tools,226.33,Top-rated Turtle Wax Socket Set with rave reviews from satisfied customers who love its performance and design.,Turtle Wax,4.5,2121
+I0163,Turtle Wax Floor Jack,Automotive,Tools,213.79,Innovative Turtle Wax Floor Jack designed for maximum efficiency and ease of use in any situation.,Turtle Wax,3.8,4111
+I0164,Bosch Smart Light Strip,Automotive,Lighting,119.76,"Ergonomic Bosch Smart Light Strip engineered for comfort and performance, perfect for daily activities and adventures.",Bosch,4.1,3330
+I0165,Bosch Electronics Product,Automotive,Electronics,158.22,Experience the best in class Bosch Electronics Product featuring advanced technology and sleek modern design.,Bosch,4.0,2924
+I0166,3M Leather Belt,Automotive,Accessories,275.06,Award-winning 3M Leather Belt trusted by thousands of customers for its outstanding quality and reliability.,3M,3.7,2602
+I0167,Chemical Guys Microfiber Towels,Automotive,Car Care,224.69,Compact and lightweight Chemical Guys Microfiber Towels delivering powerful performance in a convenient portable package.,Chemical Guys,3.0,3210
+I0168,Chemical Guys Pendant Light,Automotive,Lighting,94.89,Innovative Chemical Guys Pendant Light designed for maximum efficiency and ease of use in any situation.,Chemical Guys,3.4,4812
+I0169,Chemical Guys Wool Scarf,Automotive,Accessories,154.29,Eco-friendly Chemical Guys Wool Scarf made with sustainable materials while maintaining exceptional quality standards.,Chemical Guys,4.3,819
+I0170,Bosch Electronics Product Premium,Automotive,Electronics,195.72,Durable and reliable Bosch Electronics Product Premium built to last with top-notch craftsmanship and superior comfort.,Bosch,4.0,350
+I0171,Meguiar's Electronics Product,Automotive,Electronics,218.6,Top-rated Meguiar's Electronics Product with rave reviews from satisfied customers who love its performance and design.,Meguiar's,4.0,2354
+I0172,Turtle Wax LED Desk Lamp,Automotive,Lighting,161.46,Experience the best in class Turtle Wax LED Desk Lamp featuring advanced technology and sleek modern design.,Turtle Wax,4.7,367
+I0173,3M Car Wash Kit,Automotive,Car Care,129.0,Innovative 3M Car Wash Kit designed for maximum efficiency and ease of use in any situation.,3M,4.7,2448
+I0174,Turtle Wax Microfiber Towels,Automotive,Car Care,11.65,"Ergonomic Turtle Wax Microfiber Towels engineered for comfort and performance, perfect for daily activities and adventures.",Turtle Wax,4.0,2270
+I0175,Chemical Guys Wax Polish,Automotive,Car Care,274.6,High-quality Chemical Guys Wax Polish with premium materials and excellent performance for everyday use by all ages.,Chemical Guys,4.3,2193
+I0176,Chemical Guys Wax Polish SE,Automotive,Car Care,12.44,Premium Chemical Guys Wax Polish SE offering exceptional value with cutting-edge features and long-lasting durability.,Chemical Guys,4.1,3010
+I0177,Bosch LED Desk Lamp,Automotive,Lighting,155.13,Award-winning Bosch LED Desk Lamp trusted by thousands of customers for its outstanding quality and reliability.,Bosch,4.4,3286
+I0178,Armor All Socket Set,Automotive,Tools,161.59,Feature-rich Armor All Socket Set packed with everything you need to get the most out of your experience.,Armor All,3.5,989
+I0179,Bosch Smart Light Strip Lite,Automotive,Lighting,240.32,Award-winning Bosch Smart Light Strip Lite trusted by thousands of customers for its outstanding quality and reliability.,Bosch,3.2,1644
+I0180,Chemical Guys Wool Scarf Premium,Automotive,Accessories,74.71,Stylish and functional Chemical Guys Wool Scarf Premium that combines modern aesthetics with practical everyday usability.,Chemical Guys,4.4,832
+I0181,Nature Made Vitamin D3,Health,Vitamins,85.21,"Versatile Nature Made Vitamin D3 suitable for beginners and experts alike, backed by stellar customer reviews.",Nature Made,3.8,2735
+I0182,Nature Made Vitamin C,Health,Vitamins,22.95,Eco-friendly Nature Made Vitamin C made with sustainable materials while maintaining exceptional quality standards.,Nature Made,4.7,3536
+I0183,Garden of Life Acupressure Mat,Health,Fitness,184.39,Top-rated Garden of Life Acupressure Mat with rave reviews from satisfied customers who love its performance and design.,Garden of Life,3.5,4456
+I0184,Pure Encapsulations Antiseptic Spray,Health,First Aid,15.98,Top-rated Pure Encapsulations Antiseptic Spray with rave reviews from satisfied customers who love its performance and design.,Pure Encapsulations,3.1,2940
+I0185,Nature Made Massage Gun,Health,Fitness,186.24,Innovative Nature Made Massage Gun designed for maximum efficiency and ease of use in any situation.,Nature Made,3.6,3881
+I0186,Centrum Cold Pack,Health,First Aid,186.26,Feature-rich Centrum Cold Pack packed with everything you need to get the most out of your experience.,Centrum,3.6,131
+I0187,NOW Foods TENS Unit,Health,Medical Devices,71.01,Durable and reliable NOW Foods TENS Unit built to last with top-notch craftsmanship and superior comfort.,NOW Foods,4.5,3182
+I0188,Thorne Vitamin D3,Health,Vitamins,25.84,Experience the best in class Thorne Vitamin D3 featuring advanced technology and sleek modern design.,Thorne,3.5,3061
+I0189,NOW Foods Resistance Bands,Health,Fitness,12.71,"Versatile NOW Foods Resistance Bands suitable for beginners and experts alike, backed by stellar customer reviews.",NOW Foods,3.5,608
+I0190,Omron Essential Oil Diffuser,Health,Mental Wellness,113.73,Durable and reliable Omron Essential Oil Diffuser built to last with top-notch craftsmanship and superior comfort.,Omron,3.8,3454
+I0191,NOW Foods First Aid Kit,Health,First Aid,156.02,Innovative NOW Foods First Aid Kit designed for maximum efficiency and ease of use in any situation.,NOW Foods,3.6,4151
+I0192,Garden of Life B-Complex,Health,Vitamins,36.75,Eco-friendly Garden of Life B-Complex made with sustainable materials while maintaining exceptional quality standards.,Garden of Life,4.4,3538
+I0193,NOW Foods Thermometer,Health,Medical Devices,76.61,Premium NOW Foods Thermometer offering exceptional value with cutting-edge features and long-lasting durability.,NOW Foods,3.2,3372
+I0194,Thorne Essential Oil Diffuser,Health,Mental Wellness,26.72,Award-winning Thorne Essential Oil Diffuser trusted by thousands of customers for its outstanding quality and reliability.,Thorne,3.2,3373
+I0195,NOW Foods Meditation App Kit,Health,Mental Wellness,12.06,Experience the best in class NOW Foods Meditation App Kit featuring advanced technology and sleek modern design.,NOW Foods,3.7,3802
+I0196,Thorne Cold Pack,Health,First Aid,9.37,Professional-grade Thorne Cold Pack used by experts and enthusiasts for superior results every time.,Thorne,3.8,1797
+I0197,Omron Magnesium,Health,Vitamins,107.56,Durable and reliable Omron Magnesium built to last with top-notch craftsmanship and superior comfort.,Omron,4.4,2866
+I0198,Fitbit Thermometer,Health,Medical Devices,58.79,Durable and reliable Fitbit Thermometer built to last with top-notch craftsmanship and superior comfort.,Fitbit,3.3,3481
+I0199,Fitbit Sleep Mask,Health,Mental Wellness,64.84,"Ergonomic Fitbit Sleep Mask engineered for comfort and performance, perfect for daily activities and adventures.",Fitbit,4.6,3422
+I0200,Omron Stability Ball,Health,Fitness,121.59,Experience the best in class Omron Stability Ball featuring advanced technology and sleek modern design.,Omron,3.4,1650
