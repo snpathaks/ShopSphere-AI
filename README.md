@@ -188,19 +188,29 @@ curl "http://localhost:8000/recommend/U0001?n=5&model=hybrid"
 
 ---
 
-## Evaluation Metrics
+## Evaluation Results (Empirical Benchmarks on 30-Day Test Set)
 
-Evaluated on a chronological test set (last 30 days, no future leakage):
+Evaluated on the strict chronological test set (last 30 calendar days, zero future leakage) across 497 test users and 200 catalog products:
 
-| Metric        | What It Measures                                    |
-|---------------|-----------------------------------------------------|
-| Precision@K   | Fraction of top-K recommendations that are relevant |
-| Recall@K      | Fraction of relevant items captured in top-K        |
-| NDCG@K        | Ranking quality (rewards relevant items at top)     |
-| Coverage      | Fraction of catalogue appearing in any user's list  |
+### Main Ranking Benchmarks ($K=10$)
 
-Results are printed by `python src/train.py` and saved to
-`models/evaluation_results.json`.
+| Model | Precision@10 | Recall@10 | NDCG@10 | Catalog Coverage |
+| :--- | :---: | :---: | :---: | :---: |
+| **Popularity Baseline** | 0.0906 | 0.1496 | 0.1640 | 11.50% |
+| **Content-Based (TF-IDF)** | 0.0311 | 0.0591 | 0.0566 | **96.50%** |
+| **Item-Item Collaborative Filtering** | 0.0972 | 0.1612 | **0.1787** | 48.50% |
+| **Weighted Hybrid Recommender** | **0.0978** | **0.1613** | 0.1755 | **82.50%** |
+
+### Stratified Cold-Start Breakdown ($K=10$)
+
+| Model | Cold Users ($\le 5$ events) | Warm Users ($6\text{--}20$ events) | Hot Users ($\ge 21$ events) |
+| :--- | :---: | :---: | :---: |
+| **Popularity Baseline** | NDCG: 0.3848 (Recall: 0.3436) | NDCG: 0.1929 (Recall: 0.1648) | NDCG: 0.1344 (Recall: 0.1290) |
+| **Item-Item CF** | NDCG: 0.3811 (Recall: 0.3447) | NDCG: **0.2134** (Recall: **0.1845**) | NDCG: 0.1473 (Recall: 0.1371) |
+| **Content-Based** | NDCG: 0.2011 (Recall: 0.1962) | NDCG: 0.0420 (Recall: 0.0441) | NDCG: 0.0549 (Recall: 0.0580) |
+| **Hybrid Ensemble** | NDCG: **0.3883** (Recall: 0.3436) | NDCG: 0.1956 (Recall: 0.1721) | NDCG: **0.1511** (Recall: **0.1438**) |
+
+*Results automatically serialized to `models/evaluation_results.json`.*
 
 ---
 

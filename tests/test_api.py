@@ -1,73 +1,83 @@
 """
-test_api.py - Unit and integration tests for FastAPI endpoints.
+test_api.py - Unit and integration tests for FastAPI application endpoints and ModelLoader.
 """
 
 import pytest
-from fastapi.testclient import TestClient
-from unittest.mock import MagicMock
-from api.main import app
+from api.main import root, health, list_models, recommend, similar_items, user_history, submit_feedback, FeedbackRequest
 from api.model_loader import ModelLoader
+from api.schemas import RecommendationResponse, HealthResponse, ModelInfoResponse
 
 
-@pytest.fixture
-def client():
-    # Use TestClient with app
-    with TestClient(app) as test_client:
-        yield test_client
-
-
-def test_root_endpoint(client):
-    response = client.get("/")
-    assert response.status_code == 200
-    data = response.json()
-    assert "message" in data
-    assert data["docs"] == "/docs"
-
-
-def test_health_endpoint(client):
-    response = client.get("/health")
-    assert response.status_code == 200
-    data = response.json()
-    assert data["status"] == "ok"
-    assert "models_loaded" in data
-
-
-def test_models_endpoint(client):
-    response = client.get("/models")
-    assert response.status_code == 200
-    data = response.json()
-    assert "available_models" in data
-    assert "default_model" in data
-    assert "description" in data
-
-
-def test_feedback_endpoint(client):
-    payload = {
-        "user_id": "U0001",
-        "item_id": "I0001",
-        "rating": 5
-    }
-    response = client.post("/feedback", json=payload)
-    assert response.status_code == 200
-    data = response.json()
-    assert data["status"] == "success"
-    assert data["feedback"]["user_id"] == "U0001"
-
-
-def test_recommend_endpoint_with_mock():
-    # Test recommend logic with a mock model attached to loader
+@pytest.fixture(scope="module", autouse=True)
+def load_all_models():
+    """Ensure models and data are loaded into the singleton ModelLoader."""
     loader = ModelLoader.get_instance()
-    mock_model = MagicMock()
-    mock_model.recommend.return_value = [
-        {"item_id": "I0001", "score": 0.95, "reason": "Test mock reason"}
-    ]
-    loader._models["mock_test_model"] = mock_model
-    loader._user_interaction_counts["U9999"] = 10
+    loader.load_models()
+    return loader
 
-    with TestClient(app) as c:
-        response = c.get("/recommend/U9999?model=mock_test_model&n=5")
-        assert response.status_code == 200
-        data = response.json()
-        assert data["user_id"] == "U9999"
-        assert len(data["recommendations"]) >= 1
-        assert data["recommendations"][0]["item_id"] == "I0001"
+
+def test_root_endpoint():
+    res = root()
+    assert isinstance(res, dict)
+    assert "message" in res
+    assert res["docs"] == "/docs"
+
+
+def test_health_endpoint():
+    res = health()
+    assert isinstance(res, HealthResponse)
+    assert res.status == "ok"
+    assert len(res.models_loaded) >= 1
+    assert "hybrid" in res.models_loaded or "popularity" in res.models_loaded
+
+
+def test_list_models_endpoint():
+    res = list_models()
+    assert isinstance(res, ModelInfoResponse)
+    assert len(res.available_models) >= 1
+    assert res.default_model == "hybrid"
+
+
+def test_recommend_existing_user():
+    res = recommend(user_id="U0001", n=5, model="hybrid", exclude_seen=True)
+    assert isinstance(res, RecommendationResponse)
+    assert res.user_id == "U0001"
+    assert len(res.recommendations) <= 5
+    assert len(res.recommendations) > 0
+    # Every recommendation must have name, category, price, score, reason
+    first_item = res.recommendations[0]
+    assert first_item.name != ""
+    assert first_item.category != ""
+    assert first_item.reason != ""
+    assert first_item.rank == 1
+
+
+def test_recommend_cold_start_new_user():
+    # Brand new user with 0 history should trigger is_cold_start=True and popularity fallback
+    res = recommend(user_id="U_BRAND_NEW_9999", n=5, model="hybrid", exclude_seen=True)
+    assert isinstance(res, RecommendationResponse)
+    assert res.user_id == "U_BRAND_NEW_9999"
+    assert res.is_cold_start is True
+    assert len(res.recommendations) > 0
+
+
+def test_user_history_endpoint():
+    res = user_history(user_id="U0001")
+    assert isinstance(res, dict)
+    assert res["user_id"] == "U0001"
+    assert "history" in res
+
+
+def test_similar_items_endpoint():
+    res = similar_items(item_id="I0001", n=3)
+    assert isinstance(res, RecommendationResponse)
+    assert len(res.recommendations) <= 3
+
+
+def test_feedback_submission():
+    payload = FeedbackRequest(user_id="U0001", item_id="I0001", rating=5)
+    res = submit_feedback(payload)
+    assert isinstance(res, dict)
+    assert res["status"] == "ok"
+    assert res["record"]["user_id"] == "U0001"
+    assert res["record"]["item_id"] == "I0001"

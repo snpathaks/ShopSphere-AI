@@ -119,15 +119,15 @@ def train(test_days: int = TEST_DAYS, models_dir: Path = MODELS_DIR):
     _step(6, total_steps, "Fitting all 4 models on train data...")
 
     popularity_model = PopularityRecommender()
-    popularity_model.fit(train_df)
+    popularity_model.fit(train_df, products_df, users_df)
     print("  [1/4] PopularityRecommender fitted.")
 
     item_cf_model = ItemItemCF()
-    item_cf_model.fit(user_item_matrix)
+    item_cf_model.fit(train_df, products_df, users_df)
     print("  [2/4] ItemItemCF fitted.")
 
     content_model = ContentBasedRecommender()
-    content_model.fit(item_features, products_df)
+    content_model.fit(train_df, products_df, users_df)
     print("  [3/4] ContentBasedRecommender fitted.")
 
     hybrid_model = HybridRecommender(
@@ -135,12 +135,7 @@ def train(test_days: int = TEST_DAYS, models_dir: Path = MODELS_DIR):
         beta=HYBRID_BETA,
         gamma=HYBRID_GAMMA,
     )
-    hybrid_model.fit(
-        user_item_matrix=user_item_matrix,
-        item_features=item_features,
-        train_df=train_df,
-        products_df=products_df,
-    )
+    hybrid_model.fit(train_df, products_df, users_df)
     print("  [4/4] HybridRecommender fitted.")
 
     models_dict = {
@@ -165,6 +160,9 @@ def train(test_days: int = TEST_DAYS, models_dir: Path = MODELS_DIR):
         with open(out_path, "wb") as f:
             pickle.dump(models_dict[key], f)
         print(f"  Saved {out_path}.")
+
+    # Save processed splits and matrices
+    save_processed(train_df, test_df, user_item_matrix, str(PROCESSED_DATA_DIR))
 
     # ------------------------------------------------------------------
     # Step 8: Compare models on test set
@@ -205,7 +203,10 @@ def train(test_days: int = TEST_DAYS, models_dir: Path = MODELS_DIR):
         for uid in test_user_ids:
             try:
                 recs = model.recommend(uid, n=10, exclude_seen=True)
-                recommendations[uid] = recs
+                if recs and isinstance(recs[0], dict):
+                    recommendations[uid] = [r["item_id"] for r in recs]
+                else:
+                    recommendations[uid] = [str(r) for r in recs]
             except Exception:
                 recommendations[uid] = []
         coverage_results[name] = catalog_coverage(recommendations, all_item_ids)

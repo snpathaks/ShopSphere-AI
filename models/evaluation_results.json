@@ -1,0 +1,188 @@
+{
+  "comparison": [
+    {
+      "model_name": "PopularityRecommender",
+      "k": 5,
+      "precision@k": 0.13647798742138365,
+      "recall@k": 0.11166498595743879,
+      "ndcg@k": 0.17107712388344878
+    },
+    {
+      "model_name": "PopularityRecommender",
+      "k": 10,
+      "precision@k": 0.09056603773584906,
+      "recall@k": 0.14958941303280926,
+      "ndcg@k": 0.16398676679001928
+    },
+    {
+      "model_name": "PopularityRecommender",
+      "k": 20,
+      "precision@k": 0.060062893081761014,
+      "recall@k": 0.19466393145638428,
+      "ndcg@k": 0.18180509829831876
+    },
+    {
+      "model_name": "ItemItemCF",
+      "k": 5,
+      "precision@k": 0.1509433962264151,
+      "recall@k": 0.12318657059223097,
+      "ndcg@k": 0.18991176758866835
+    },
+    {
+      "model_name": "ItemItemCF",
+      "k": 10,
+      "precision@k": 0.09716981132075472,
+      "recall@k": 0.16120292181612933,
+      "ndcg@k": 0.17869790364053648
+    },
+    {
+      "model_name": "ItemItemCF",
+      "k": 20,
+      "precision@k": 0.064937106918239,
+      "recall@k": 0.21069224276771445,
+      "ndcg@k": 0.19841049309078668
+    },
+    {
+      "model_name": "ContentBasedRecommender",
+      "k": 5,
+      "precision@k": 0.038364779874213835,
+      "recall@k": 0.036183173919022975,
+      "ndcg@k": 0.051924631805005554
+    },
+    {
+      "model_name": "ContentBasedRecommender",
+      "k": 10,
+      "precision@k": 0.031132075471698113,
+      "recall@k": 0.05907176331704633,
+      "ndcg@k": 0.05659074089953687
+    },
+    {
+      "model_name": "ContentBasedRecommender",
+      "k": 20,
+      "precision@k": 0.0279874213836478,
+      "recall@k": 0.09597216200989785,
+      "ndcg@k": 0.07272419119147637
+    },
+    {
+      "model_name": "HybridRecommender",
+      "k": 5,
+      "precision@k": 0.14150943396226415,
+      "recall@k": 0.11591631638801449,
+      "ndcg@k": 0.17945903670731242
+    },
+    {
+      "model_name": "HybridRecommender",
+      "k": 10,
+      "precision@k": 0.09779874213836477,
+      "recall@k": 0.16132366934253725,
+      "ndcg@k": 0.17550167170504655
+    },
+    {
+      "model_name": "HybridRecommender",
+      "k": 20,
+      "precision@k": 0.06132075471698113,
+      "recall@k": 0.20011792889151378,
+      "ndcg@k": 0.18951144498768582
+    }
+  ],
+  "cold_start": {
+    "popularity": {
+      "cold": {
+        "precision@k": 0.16923076923076927,
+        "recall@k": 0.3436226166995398,
+        "ndcg@k": 0.3847722676130185,
+        "k": 10,
+        "n_users": 13
+      },
+      "warm": {
+        "precision@k": 0.10380952380952381,
+        "recall@k": 0.16484491698777412,
+        "ndcg@k": 0.1929195655793762,
+        "k": 10,
+        "n_users": 105
+      },
+      "hot": {
+        "precision@k": 0.0785,
+        "recall@k": 0.12896811521811521,
+        "ndcg@k": 0.13444598987211195,
+        "k": 10,
+        "n_users": 200
+      }
+    },
+    "item_item_cf": {
+      "cold": {
+        "precision@k": 0.16923076923076927,
+        "recall@k": 0.3446909927679158,
+        "ndcg@k": 0.38107904356366074,
+        "k": 10,
+        "n_users": 13
+      },
+      "warm": {
+        "precision@k": 0.11523809523809524,
+        "recall@k": 0.18448815734530022,
+        "ndcg@k": 0.21339795253454646,
+        "k": 10,
+        "n_users": 105
+      },
+      "hot": {
+        "precision@k": 0.083,
+        "recall@k": 0.13705144855144855,
+        "ndcg@k": 0.1473256038761782,
+        "k": 10,
+        "n_users": 200
+      }
+    },
+    "content_based": {
+      "cold": {
+        "precision@k": 0.08461538461538462,
+        "recall@k": 0.19617028270874426,
+        "ndcg@k": 0.2010834034224471,
+        "k": 10,
+        "n_users": 13
+      },
+      "warm": {
+        "precision@k": 0.024761904761904763,
+        "recall@k": 0.04405930048787192,
+        "ndcg@k": 0.04195014250238108,
+        "k": 10,
+        "n_users": 105
+      },
+      "hot": {
+        "precision@k": 0.031,
+        "recall@k": 0.058041902541902536,
+        "ndcg@k": 0.0548850319940545,
+        "k": 10,
+        "n_users": 200
+      }
+    },
+    "hybrid": {
+      "cold": {
+        "precision@k": 0.16923076923076927,
+        "recall@k": 0.3436226166995398,
+        "ndcg@k": 0.3882968471262276,
+        "k": 10,
+        "n_users": 13
+      },
+      "warm": {
+        "precision@k": 0.10761904761904763,
+        "recall@k": 0.17212760784189357,
+        "ndcg@k": 0.19562648706418234,
+        "k": 10,
+        "n_users": 105
+      },
+      "hot": {
+        "precision@k": 0.08800000000000001,
+        "recall@k": 0.14380217005217005,
+        "ndcg@k": 0.15110445723912347,
+        "k": 10,
+        "n_users": 200
+      }
+    }
+  },
+  "coverage": {
+    "popularity": 0.115,
+    "item_item_cf": 0.485,
+    "content_based": 0.965,
+    "hybrid": 0.825
+  }
+}
