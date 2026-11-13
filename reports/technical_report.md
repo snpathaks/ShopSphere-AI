@@ -288,3 +288,4 @@ This project fulfills all criteria of the Algions AI Labs internship assessment:
 - **Methodological Rigor**: 4 models compared under a zero-leakage chronological split.
 - **Explainability**: Clear inference signals and responsible AI documentation.
 - **Production Readiness**: Fully decoupled FastAPI backend, Streamlit frontend, and automated pytest suite.
+

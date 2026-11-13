@@ -88,3 +88,4 @@ def test_cold_start_analysis(toy_split_data, toy_products_df, toy_users_df):
     assert "cold" in analysis
     assert "warm" in analysis
     assert "hot" in analysis
+

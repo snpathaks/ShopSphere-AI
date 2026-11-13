@@ -49,3 +49,4 @@ Following the Model Cards for Model Reporting framework (Mitchell et al., 2019).
 1. Synthetic interaction dynamics may not fully capture macroeconomic seasonality (e.g. Black Friday or holiday spikes).
 2. For items with rapid repurchase cycles (e.g., groceries), frequency-capping filters should be applied post-scoring.
 3. Periodic model retraining (daily or weekly) is required to absorb newly cataloged products into the collaborative filtering matrix.
+

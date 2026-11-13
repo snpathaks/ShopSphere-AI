@@ -75,3 +75,4 @@ def test_build_item_features(toy_products_df):
     # Normalized price should be bounded in [0, 1]
     assert features["price_norm"].min() >= 0.0
     assert features["price_norm"].max() <= 1.0
+

@@ -85,3 +85,4 @@ def test_exclude_seen_logic(toy_interactions_df, toy_products_df, toy_users_df):
 
     # None of the recommended items should be in the user's training history
     assert len(set(rec_items).intersection(user_seen)) == 0
+
